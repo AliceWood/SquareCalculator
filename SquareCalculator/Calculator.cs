@@ -17,5 +17,12 @@ namespace SquareCalculator
 
             return triangle.GetSquare();
         }
+
+        public static bool IsRightTriangle(double firstSide, double secondSide, double thirdSide)
+        {
+            var triangle = new TriangleFigure(firstSide, secondSide, thirdSide);
+
+            return triangle.IsRightTriangle;
+        }
     }
 }
