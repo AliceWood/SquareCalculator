@@ -43,7 +43,7 @@ namespace SquareCalculator.Figures
                 secondSide > firstSide + thirdSide ||
                 thirdSide > firstSide + secondSide)
             {
-                throw new ArgumentException($"Sum of lengths of any two sides should be greater than the length of the other one. first edge: {firstSide}, second edge: {secondSide}, third edge: {thirdSide}");
+                throw new ArgumentException($"Sum of lengths of any two sides should be greater than the length of the other one. first side: {firstSide}, second side: {secondSide}, third side: {thirdSide}");
             }
         }
 
